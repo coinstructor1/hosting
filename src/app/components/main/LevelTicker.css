@@ -1,0 +1,60 @@
+.level-ticker {
+    display: flex;
+    justify-content: space-between; /* Gleichmäßige Verteilung der Items */
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    margin-top: 20px; /* Abstand nach oben */
+}
+
+.level-ticker-item {
+    flex: 1; /* Gleichmäßige Verteilung der Items */
+    max-width: none; /* Keine maximale Breite */
+    height: 50px; /* Feste Höhe */
+    background-color: #000; /* Schwarzer Hintergrund */
+    border: 1px solid #ccc; /* Heller grauer Rand */
+    border-radius: 5px; /* Abgerundete Ecken */
+    margin: 0 5px; /* Horizontaler Abstand zwischen den Items */
+    font-family: 'Roboto', sans-serif; /* Schriftart Roboto */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Zentriert den Inhalt vertikal */
+}
+
+.level-ticker-label {
+    font-size: 12px; /* Schriftgröße auf 10px */
+    font-weight: bold;
+    margin-bottom: 2px; /* Weniger Abstand nach unten */
+    text-align: center; /* Zentriert den Text */
+    color: #fff; /* Standard Schriftfarbe */
+}
+
+.level-ticker-separator {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Zentriert den Inhalt horizontal */
+}
+
+.level-ticker-image {
+    margin-right: 5px; /* Weniger Abstand rechts */
+}
+
+.level-ticker-value {
+    font-size: 12px; /* Schriftgröße auf 10px */
+    color: #666;
+    text-align: center; /* Zentriert den Text */
+}
+
+/* Spezifische Farben für die Labels */
+.level-ticker-item.tap-to-earn .level-ticker-label {
+    color: orange; /* Schriftfarbe für Earn Per Tap */
+}
+
+.level-ticker-item.coins-to-level-up .level-ticker-label {
+    color: red; /* Schriftfarbe für Coins To Level Up */
+}
+
+.level-ticker-item.profit-per-hour .level-ticker-label {
+    color: green; /* Schriftfarbe für Profit Per Hour */
+}

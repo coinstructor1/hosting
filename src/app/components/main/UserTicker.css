@@ -1,0 +1,20 @@
+.user-ticker {
+    display: flex; /* Layout für nebeneinander Positionierung */
+    align-items: center; /* Vertikal zentriert */
+    justify-content: center; /* Horizontal zentriert */
+    padding-top: 75px;
+    max-width: 300px; /* Maximale Breite der Komponente */
+    margin: 0 auto; /* Zentriert die Komponente horizontal */
+}
+
+.user-image {
+    height: 19px; /* Höhe des Bildes so hoch wie der Name (ca. 40px) */
+    width: 19px; /* Proportionen des Bildes beibehalten */
+    margin-right: 10px; /* Abstand zwischen Bild und Name */
+}
+
+.user-name {
+    margin: 0; /* Kein extra Abstand */
+    font-family: 'Roboto', sans-serif; /* Roboto Schriftart */
+    font-size: 25px; /* Schriftgröße auf 12px */
+}
